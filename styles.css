@@ -1,0 +1,37 @@
+:root {
+    --main: #ffff11;
+    color: white;
+    font-size: 12px;
+}
+
+body  {
+    padding: 0;
+    margin: 0;
+}
+
+img.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    object-fit: contain;
+    max-width: 300px;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.text-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
