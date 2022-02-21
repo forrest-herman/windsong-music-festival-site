@@ -4,52 +4,56 @@
     font-size: 12px;
 }
 
-body  {
+body {
     padding: 0;
     margin: 0;
 }
 
 p {
-    font-size: 2rem;
     padding: 0;
     margin: 0;
 }
 
-a{
+a {
     color: white;
 }
 
-a:hover{
+a:hover {
     color: #E0BCB8;
 }
 
-img.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    height: 100%;
-    object-fit: contain;
-    max-width: 300px;
-}
-
-.center {
-    text-align: center;
-}
-
-.text-bottom{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.home-message {
-    margin: 0 10px 10px 10px;
-}
-
 @media screen and (min-width: 767px) {
-    .home-message {
-        margin: 0 20% 4vh 25%;
+    p {
+        font-size: 2rem;
     }
-}
+
+    img.logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: 100%;
+        object-fit: contain;
+        max-width: 300px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .text-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .home-message {
+        margin: 0 10px 10px 10px;
+    }
+
+    @media screen and (min-width: 767px) {
+        .home-message {
+            margin: 0 20% 4vh 25%;
+        }
+    }
