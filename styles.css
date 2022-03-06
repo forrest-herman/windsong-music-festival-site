@@ -1,7 +1,17 @@
+@font-face {
+    font-family: 'Figural Std';
+    src: url('/fonts/FiguralStd-Medium.woff2') format('woff2'),
+        url('/fonts/FiguralStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --main: #ffff11;
     color: white;
     font-size: 12px;
+    font-family: "Figural Std";
 }
 
 body {
@@ -29,6 +39,26 @@ a:hover {
     }
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+ul.navbar > li {
+    margin: 0 10px;
+}
+
+ul.navbar > li a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
 img.logo {
     display: flex;
     justify-content: center;
@@ -41,6 +71,10 @@ img.logo {
 
 .center {
     text-align: center;
+}
+
+.no-underline {
+    text-decoration: none;
 }
 
 .text-bottom {
@@ -56,6 +90,6 @@ img.logo {
 
 @media screen and (min-width: 767px) {
     .home-message {
-        margin: 0 20% 4vh 25%;
+        margin: 0 20% 4vh 20%;
     }
 }
