@@ -1,7 +1,6 @@
 @font-face {
-    font-family: 'Figural Std';
-    src: url('/fonts/FiguralStd-Medium.woff2') format('woff2'),
-        url('/fonts/FiguralStd-Medium.woff') format('woff');
+    font-family: "Figural Std";
+    src: url("/fonts/FiguralStd-Medium.woff2") format("woff2"), url("/fonts/FiguralStd-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -30,7 +29,7 @@ a {
 }
 
 a:hover {
-    color: #E0BCB8;
+    color: #e0bcb8;
 }
 
 @media screen and (min-width: 767px) {
@@ -58,6 +57,11 @@ ul.navbar > li a {
     text-decoration: none;
 }
 
+.full-page {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
 
 img.logo {
     display: flex;
